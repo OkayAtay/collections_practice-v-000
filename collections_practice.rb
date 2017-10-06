@@ -17,3 +17,6 @@ def swap_elements(array)
   swapped_array.delete_at(1)
   swapped_array
 end
+
+def reverse_array
+end
