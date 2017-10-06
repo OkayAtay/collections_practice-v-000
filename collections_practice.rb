@@ -14,4 +14,5 @@ def swap_elements(array)
   swapped_array = []
   swapped_array << array.insert(3, array[1])
   swapped_array.delete(1)
+  swapped_array
 end
