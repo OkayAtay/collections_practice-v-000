@@ -36,6 +36,6 @@ end
 
 def add_s(array)
   array.collect do |i|
-    "#{i} + s"
+    "#{i} + #{s}"
   end
 end
