@@ -36,6 +36,7 @@ end
 
 def add_s(array)
   array.collect do |i|
+    next if array(1)
     "#{i}s"
   end
 end
