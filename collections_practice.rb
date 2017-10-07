@@ -35,5 +35,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each{|noun| noun + "s"}
+  array.reject {|i| i == "feet"}.each{|i| "#{i} + s"}
 end
