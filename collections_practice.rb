@@ -35,5 +35,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.reject {|i| i == "feed"}
+  array.reject {|i| i == "feet"}
 end
