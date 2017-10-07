@@ -35,8 +35,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.collect do |i|
-    next if i == "feet"
+  array.each_with_index.collect do |i|
     "#{i}s"
   end
 end
