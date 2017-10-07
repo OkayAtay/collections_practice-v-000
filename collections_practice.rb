@@ -35,5 +35,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.drop(2).each{|i| "#{i} + s"}
+  array.each do |i| 
+    "#{i} + s"
 end
