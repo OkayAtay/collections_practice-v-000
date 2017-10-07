@@ -23,5 +23,5 @@ def reverse_array(array)
 end
 
 def method_name(array)
-  
+  array.each {|name| name.insert(2,"$") }
 end
